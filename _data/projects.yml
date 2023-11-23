@@ -1,0 +1,31 @@
+main:
+
+  - title: "HOMESTRI-UR"
+    description: ROS Workspace for UR5e Robots in HRVIP Lab and HOMESTRI
+    code: https://github.com/tammerb/HOMESTRI-UR5e-Robotiq2f85/tree/minimal
+    image: homestri-ur-b-bot.gif
+
+  - title: "LARA-Aubo-Robot"
+    description: ROS Environment for Aubo Robots in LARA
+    code: https://github.com/ian-chuang/LARA_AUBOi5_AG95
+    image: lara-aubo.gif
+
+  - title: "space_habitat_robotics_framework"
+    description: ROS environment for Viper X 300 arms
+    code: https://github.com/Drojas251/space_habitat_robotics_framework
+    image: shr.gif
+
+  - title: "Manipulator-Mujoco"
+    description: Template for controlling any robot arm in Mujoco with operational space control
+    code: https://github.com/ian-chuang/Manipulator-Mujoco
+    image: manip-mujoco-aubo_i5.gif
+
+  - title: "OnRobot-RG2FT-ROS"
+    description: ROS Workspace for UR5e Robots in HRVIP Lab and HOMESTRI
+    code: https://github.com/ian-chuang/OnRobot-RG2FT-ROS
+    image: onrobot.gif
+
+  - title: "AlgorithmVisualizer"
+    description: React app to visualize sorting, graph, and maze generation algorithms
+    code: https://github.com/ian-chuang/AlgorithmVisualizer
+    image: algviz.gif
