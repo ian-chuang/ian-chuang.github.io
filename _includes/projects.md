@@ -28,7 +28,7 @@
 
 {% endfor %}
 
+#### Check out more projects [here](https://github.com/ian-chuang)!
+
 </ol>
 </div>
-
-Check out more projects [here](https://github.com/ian-chuang)!
