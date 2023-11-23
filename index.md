@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a 4th year undergraduate at UC Davis majoring in Computer Science and Engineering. I currently work with [Prof. Iman Soltani](https://soltanilab.engineering.ucdavis.edu/people/iman-soltani) and [Prof. Stephen K. Robinson](https://hrvip.ucdavis.edu/people/stephen-robinson). 
+I am a 4th year undergraduate student at UC Davis majoring in Computer Science and Engineering. I currently work with [Prof. Iman Soltani](https://soltanilab.engineering.ucdavis.edu/people/iman-soltani) and [Prof. Stephen K. Robinson](https://hrvip.ucdavis.edu/people/stephen-robinson). 
 
 My research interests are in contact-rich manipulation in unstructured environments. I'm interested in robotics, embodied AI, and computer vision. I want to make manipulators more capable, increasing their intelligence, perception, and affinity for contact. 
 

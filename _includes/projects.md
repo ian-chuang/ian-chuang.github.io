@@ -28,7 +28,11 @@
 
 {% endfor %}
 
-#### Check out more projects [here](https://github.com/ian-chuang)!
+<li>
+<div class="pub-row">
+  <h4>Check out more projects <a href="https://github.com/ian-chuang">here</a>!</h4>
+</div>
+</li>
 
 </ol>
 </div>
