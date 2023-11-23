@@ -13,7 +13,7 @@
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="title"><a href="{{ link.code }}">{{ link.title }}</a></div>
       <div class="author">{{ link.description }}</div>
     <div class="links">
       {% if link.code %} 
@@ -28,11 +28,7 @@
 
 {% endfor %}
 
-<li>
-<div class="pub-row">
-  <h4>Check out more projects <a href="https://github.com/ian-chuang">here</a>!</h4>
-</div>
-</li>
+<p style="font-size: 1rem">Check out more projects <a href="https://github.com/ian-chuang">here</a>!</p>
 
 </ol>
 </div>
