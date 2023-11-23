@@ -20,12 +20,43 @@ main:
     code: https://github.com/ian-chuang/Manipulator-Mujoco
     image: ./assets/img/manip-mujoco-aubo_i5.gif
 
+  - title: "HOMESTRI-Explanation-BTs"
+    description: ROS Docker workspace for running explainable behavior trees for UR5e robot in HOMESTRI. 
+    code: https://github.com/ian-chuang/HOMESTRI-Explanation-BTs
+
   - title: "OnRobot-RG2FT-ROS"
     description: ROS driver for OnRobot RG2-FT Gripper
     code: https://github.com/ian-chuang/OnRobot-RG2FT-ROS
     image: ./assets/img/onrobot.gif
 
+  - title: "robotiq"
+    description: ROS driver for Robotiq 2F-85 Gripper
+    code: https://github.com/ian-chuang/robotiq
+    image: ./assets/img/robotiq.gif 
+
+  - title: "dh_gripper_ros"
+      description: ROS driver for DH Robotics AG95 Gripper
+      code: https://github.com/ian-chuang/dh_gripper_ros
+
+  - title: "KWR75-Force-Sensor-ROS"
+      description: ROS driver for KWR75 Force Torque Sensor
+      code: https://github.com/ian-chuang/KWR75-Force-Sensor-ROS
+
+  - title: "RoboFroggy"
+    description: ECS189L Group Project for a Unity 2D Side scrolling game
+    code: https://github.com/ian-chuang/RoboFroggy
+    image: ./assets/img/robofroggy.gif
+
+  - title: "Heart-Disease-Prediction"
+    description: ECS171 Machine Learning group project to predict likelihood of heart disease
+    code: https://github.com/ian-chuang/Heart-Disease-Prediction
+
   - title: "AlgorithmVisualizer"
     description: React app to visualize sorting, graph, and maze generation algorithms
     code: https://github.com/ian-chuang/AlgorithmVisualizer
     image: ./assets/img/algviz.gif
+
+  - title: "Twitter-From-Scratch"
+    description: Twitter-like app built from scratch with ReactJS, Redux, and Firebase
+    code: https://github.com/ian-chuang/Twitter-From-Scratch
+    image: ./assets/img/twitter.gif
