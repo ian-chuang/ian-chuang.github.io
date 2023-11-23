@@ -24,4 +24,4 @@ My research interests are in contact-rich manipulation in unstructured environme
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+{% include_relative _includes/projects.md %}
