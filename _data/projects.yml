@@ -35,12 +35,12 @@ main:
     image: ./assets/img/robotiq.gif 
 
   - title: "dh_gripper_ros"
-      description: ROS driver for DH Robotics AG95 Gripper
-      code: https://github.com/ian-chuang/dh_gripper_ros
+    description: ROS driver for DH Robotics AG95 Gripper
+    code: https://github.com/ian-chuang/dh_gripper_ros
 
   - title: "KWR75-Force-Sensor-ROS"
-      description: ROS driver for KWR75 Force Torque Sensor
-      code: https://github.com/ian-chuang/KWR75-Force-Sensor-ROS
+    description: ROS driver for KWR75 Force Torque Sensor
+    code: https://github.com/ian-chuang/KWR75-Force-Sensor-ROS
 
   - title: "RoboFroggy"
     description: ECS189L Group Project for a Unity 2D Side scrolling game
