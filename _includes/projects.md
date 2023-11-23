@@ -28,7 +28,7 @@
 
 {% endfor %}
 
-<p style="font-size: 2rem">Check out more projects <a href="https://github.com/ian-chuang">here</a>!</p>
+<p style="font-size: 1.1rem;">Check out more projects <a href="https://github.com/ian-chuang">here</a>!</p>
 
 </ol>
 </div>
