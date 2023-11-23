@@ -21,7 +21,7 @@ main:
     image: ./assets/img/manip-mujoco-aubo_i5.gif
 
   - title: "OnRobot-RG2FT-ROS"
-    description: ROS Workspace for UR5e Robots in HRVIP Lab and HOMESTRI
+    description: ROS driver for OnRobot RG2-FT Gripper
     code: https://github.com/ian-chuang/OnRobot-RG2FT-ROS
     image: ./assets/img/onrobot.gif
 
