@@ -5,3 +5,9 @@ main:
     code: https://github.com/Soltanilara/DNS
     notes: Under Review at IEEE RA-L
     image: ./assets/img/miniav.png
+
+  - title: '"What Will You Do Next?" Designing and Evaluating Explanation Generation Using Behavior Trees for Projection-Level XAI'
+    authors: Tammer Barkouki, <strong>Ian Chuang</strong>, and Stephen K. Robinson
+    conference: HRI 2024 Late Breaking Reports
+    code: https://github.com/ian-chuang/robot-explanation-BTs
+    image: ./assets/img/xbt.png
