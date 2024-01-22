@@ -3,7 +3,7 @@ main:
   - title: "Hierarchical end-to-end autonomous navigation through few-shot waypoint detection"
     authors: Amin Ghafourian, Zhongying CuiZhu, Debo Shi, <strong>Ian Chuang</strong>, Francois Charette, Rithik Sachdeva, and Iman Soltani
     code: https://github.com/Soltanilara/DNS
-    notes: Under Review at IEEE RA-L
+    conference: IEEE RA-L
     image: ./assets/img/miniav.png
 
   - title: '"What Will You Do Next?" Designing and Evaluating Explanation Generation Using Behavior Trees for Projection-Level XAI'
