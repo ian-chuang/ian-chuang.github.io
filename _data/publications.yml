@@ -1,13 +1,28 @@
 main:
 
+  # - title: "InterACT: Inter-dependency Aware Action Chunking with Hierarchical Attention Transformers for Bimanual Manipulation"
+  #   authors: Andrew Choong-Won Lee, <strong>Ian Chuang</strong>, Ling-Yuan Chen, and Iman Soltani
+  #   conference: CoRL
+  #   notes: In Review
+  #   image: ./assets/img/interact.png
+  
   - title: "Hierarchical end-to-end autonomous navigation through few-shot waypoint detection"
     authors: Amin Ghafourian, Zhongying CuiZhu, Debo Shi, <strong>Ian Chuang</strong>, Francois Charette, Rithik Sachdeva, and Iman Soltani
     code: https://github.com/Soltanilara/DNS
     conference: IEEE RA-L
+    pdf: https://ieeexplore.ieee.org/document/10433735
     image: ./assets/img/miniav.png
 
   - title: '"What Will You Do Next?" Designing and Evaluating Explanation Generation Using Behavior Trees for Projection-Level XAI'
     authors: Tammer Barkouki, <strong>Ian Chuang</strong>, and Stephen K. Robinson
-    conference: HRI 2024 Late Breaking Reports
+    conference: HRI 2024 LBR
+    pdf: https://dl.acm.org/doi/10.1145/3610978.3640547
     code: https://github.com/ian-chuang/robot-explanation-BTs
     image: ./assets/img/xbt.png
+
+  - title: "Mixed Reality Handheld Displays for Robot Control: A Comparative Study"
+    authors: Vera Memmesheimer, <strong>Ian Chuang</strong>, Bahram Ravani, and Achim Ebert
+    conference: AHFE 2024
+    pdf: https://openaccess.cms-conferences.org/publications/book/978-1-964867-30-4/article/978-1-964867-30-4_33
+    notes: Best Paper Student Award
+    image: ./assets/img/mixed_reality.png
