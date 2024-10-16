@@ -1,10 +1,16 @@
 main:
 
-  # - title: "InterACT: Inter-dependency Aware Action Chunking with Hierarchical Attention Transformers for Bimanual Manipulation"
-  #   authors: Andrew Choong-Won Lee, <strong>Ian Chuang</strong>, Ling-Yuan Chen, and Iman Soltani
-  #   conference: CoRL
-  #   notes: In Review
-  #   image: ./assets/img/interact.png
+  - title: "Active Vision Might Be All You Need: Exploring Active Vision in Bimanual Robotic Manipulation"
+    authors: <strong>Ian Chuang</strong>, Andrew Lee, Dechen Gao, and Iman Soltani
+    notes: Under Review
+    image: ./assets/img/av-aloha.gif
+    pdf: https://soltanilara.github.io/av-aloha/
+
+  - title: "InterACT: Inter-dependency Aware Action Chunking with Hierarchical Attention Transformers for Bimanual Manipulation"
+    authors: Andrew Lee, <strong>Ian Chuang</strong>, Ling-Yuan Chen, and Iman Soltani
+    conference: CoRL 2024
+    image: ./assets/img/interact.png
+    pdf: https://www.arxiv.org/abs/2409.07914
   
   - title: "Hierarchical end-to-end autonomous navigation through few-shot waypoint detection"
     authors: Amin Ghafourian, Zhongying CuiZhu, Debo Shi, <strong>Ian Chuang</strong>, Francois Charette, Rithik Sachdeva, and Iman Soltani
