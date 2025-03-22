@@ -1,8 +1,8 @@
 main:
 
   - title: "Active Vision Might Be All You Need: Exploring Active Vision in Bimanual Robotic Manipulation"
-    authors: <strong>Ian Chuang</strong>, Andrew Lee, Dechen Gao, and Iman Soltani
-    notes: Under Review
+    authors: <strong>Ian Chuang</strong>, Andrew Lee, Dechen Gao, Mahdi Naddaf, and Iman Soltani
+    conference: ICRA 2025
     image: ./assets/img/av-aloha.gif
     pdf: https://soltanilara.github.io/av-aloha/
 
