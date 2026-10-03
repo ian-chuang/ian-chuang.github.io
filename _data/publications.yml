@@ -1,5 +1,12 @@
 main:
 
+  - title: "Look, Focus, Act: Efficient and Robust Robot Learning via Human Gaze and Foveated Vision Transformers"
+    authors: <strong>Ian Chuang</strong>, Jinyu Zou, Andrew Lee, Dechen Gao, and Iman Soltani
+    conference: ICRA 2026
+    image: ./assets/img/look-focus-act.gif
+    pdf: https://arxiv.org/abs/2507.15833
+    page: https://soltanilara.github.io/giava/
+
   - title: "VITA: Vision-to-Action Flow Matching Policy"
     authors: Dechen Gao, Boqi Zhao, Andrew Lee, <strong>Ian Chuang</strong>, Hanchu Zhou, Hang Wang, Zhe Zhao, Junshan Zhang, and Iman Soltani
     conference: ICLR 2026
@@ -20,13 +27,6 @@ main:
     image: ./assets/img/vla-mech-interp.gif
     pdf: https://arxiv.org/abs/2509.00328
     page: https://vla-mech-interp.github.io/
-
-  - title: "Look, Focus, Act: Efficient and Robust Robot Learning via Human Gaze and Foveated Vision Transformers"
-    authors: <strong>Ian Chuang</strong>, Jinyu Zou, Andrew Lee, Dechen Gao, and Iman Soltani
-    conference: ICRA 2026
-    image: ./assets/img/look-focus-act.gif
-    pdf: https://arxiv.org/abs/2507.15833
-    page: https://soltanilara.github.io/giava/
 
   - title: "Active Vision Might Be All You Need: Exploring Active Vision in Bimanual Robotic Manipulation"
     authors: <strong>Ian Chuang</strong>, Andrew Lee, Dechen Gao, Mahdi Naddaf, and Iman Soltani
