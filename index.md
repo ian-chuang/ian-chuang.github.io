@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a 1st year EECS PhD at UC Berkeley. I currently work with [Prof. Iman Soltani](https://soltanilab.engineering.ucdavis.edu/people/iman-soltani) and [Prof. Claire Tomlin](https://people.eecs.berkeley.edu/~tomlin/). 
+I am an EECS PhD student at UC Berkeley. I currently work with [Prof. Iman Soltani](https://soltanilab.engineering.ucdavis.edu/people/iman-soltani) and [Prof. Claire Tomlin](https://people.eecs.berkeley.edu/~tomlin/). 
 
 <!--
 ## Research Interests

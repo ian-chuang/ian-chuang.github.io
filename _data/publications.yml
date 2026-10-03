@@ -1,5 +1,33 @@
 main:
 
+  - title: "VITA: Vision-to-Action Flow Matching Policy"
+    authors: Dechen Gao, Boqi Zhao, Andrew Lee, <strong>Ian Chuang</strong>, Hanchu Zhou, Hang Wang, Zhe Zhao, Junshan Zhang, and Iman Soltani
+    conference: ICLR 2026
+    image: ./assets/img/vita.gif
+    pdf: https://arxiv.org/abs/2507.13231
+    code: https://github.com/ucd-dare/VITA
+    page: https://ucd-dare.github.io/VITA/
+
+  - title: "Gaze on the Prize: Shaping Visual Attention with Return-Guided Contrastive Learning"
+    authors: Andrew Lee, <strong>Ian Chuang</strong>, Dechen Gao, Kai Fukazawa, and Iman Soltani
+    conference: arXiv 2025
+    image: ./assets/img/gaze-on-the-prize.gif
+    pdf: https://arxiv.org/abs/2510.08442
+
+  - title: "Mechanistic Interpretability for Steering Vision-Language-Action Models"
+    authors: Bear Häon, Kaylene Stocking, <strong>Ian Chuang</strong>, and Claire Tomlin
+    conference: CoRL 2025
+    image: ./assets/img/vla-mech-interp.gif
+    pdf: https://arxiv.org/abs/2509.00328
+    page: https://vla-mech-interp.github.io/
+
+  - title: "Look, Focus, Act: Efficient and Robust Robot Learning via Human Gaze and Foveated Vision Transformers"
+    authors: <strong>Ian Chuang</strong>, Jinyu Zou, Andrew Lee, Dechen Gao, and Iman Soltani
+    conference: ICRA 2026
+    image: ./assets/img/look-focus-act.gif
+    pdf: https://arxiv.org/abs/2507.15833
+    page: https://soltanilara.github.io/giava/
+
   - title: "Active Vision Might Be All You Need: Exploring Active Vision in Bimanual Robotic Manipulation"
     authors: <strong>Ian Chuang</strong>, Andrew Lee, Dechen Gao, Mahdi Naddaf, and Iman Soltani
     conference: ICRA 2025
@@ -9,7 +37,7 @@ main:
   - title: "InterACT: Inter-dependency Aware Action Chunking with Hierarchical Attention Transformers for Bimanual Manipulation"
     authors: Andrew Lee, <strong>Ian Chuang</strong>, Ling-Yuan Chen, and Iman Soltani
     conference: CoRL 2024
-    image: ./assets/img/interact.png
+    image: ./assets/img/interact.gif
     pdf: https://www.arxiv.org/abs/2409.07914
   
   - title: "Hierarchical end-to-end autonomous navigation through few-shot waypoint detection"
