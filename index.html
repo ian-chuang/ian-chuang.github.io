@@ -1,0 +1,79 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <link rel="icon" href="{{ '/assets/media/favicon.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<main>
+
+  <header class="intro">
+    <img class="photo" src="{{ site.data.site.photo | relative_url }}" alt="{{ site.data.site.name }}" width="96" height="96">
+    <div>
+      <h1>{{ site.data.site.name }}</h1>
+      <p class="bio">{{ site.data.site.bio | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      <nav class="social">
+        {% for l in site.data.site.links %}<a href="{{ l.url }}" rel="me noopener">{{ l.label }}</a>{% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <div class="pubs">
+      {% for p in site.data.publications %}
+      <article class="pub">
+        <div class="frame">
+          {% if p.video %}
+          <video src="{{ '/assets/media/' | append: p.video | append: '.mp4' | relative_url }}" poster="{{ '/assets/media/' | append: p.video | append: '.jpg' | relative_url }}" muted loop playsinline preload="none" aria-label="{{ p.title | escape }}"></video>
+          {% elsif p.image %}
+          <img src="{{ '/assets/media/' | append: p.image | relative_url }}" alt="{{ p.title | escape }}">
+          {% endif %}
+        </div>
+        <h3>{{ p.title }}</h3>
+        <p class="authors">{{ p.authors | replace: 'Ian Chuang', '<strong>Ian Chuang</strong>' }}</p>
+        <p class="venue">{{ p.venue }}{% if p.note %} · <span class="note">{{ p.note }}</span>{% endif %}</p>
+        <p class="links">
+          {% if p.links.arxiv %}<a href="{{ p.links.arxiv }}">arXiv</a>{% endif %}
+          {% if p.links.paper %}<a href="{{ p.links.paper }}">Paper</a>{% endif %}
+          {% if p.links.project %}<a href="{{ p.links.project }}">Project</a>{% endif %}
+          {% if p.links.code %}<a href="{{ p.links.code }}">Code</a>{% endif %}
+        </p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      {% for p in site.data.projects %}
+      <article class="project">
+        <div class="frame">
+          {% if p.video %}
+          <video src="{{ '/assets/media/' | append: p.video | append: '.mp4' | relative_url }}" poster="{{ '/assets/media/' | append: p.video | append: '.jpg' | relative_url }}" muted loop playsinline preload="none" aria-label="{{ p.title | escape }}"></video>
+          {% elsif p.image %}
+          <img src="{{ '/assets/media/' | append: p.image | relative_url }}" alt="{{ p.title | escape }}">
+          {% endif %}
+        </div>
+        <h3><a href="{{ p.code }}">{{ p.title }}</a></h3>
+        <p>{{ p.description }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <footer>© {{ 'now' | date: '%Y' }} {{ site.data.site.name }}</footer>
+</main>
+<script src="{{ '/assets/site.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,66 +1,46 @@
-main:
+# Smaller side projects. video/image work like publications (files in assets/media/).
 
-  - title: "HOMESTRI-UR"
-    description: ROS Workspace for UR5e Robots in HRVIP Lab and HOMESTRI
-    code: https://github.com/tammerb/HOMESTRI-UR5e-Robotiq2f85/tree/minimal
-    image: ./assets/img/homestri-ur-b-bot.gif
+- title: Manipulator-Mujoco
+  description: Control any robot arm in MuJoCo with operational space control.
+  video: p-manipulator-mujoco
+  code: https://github.com/ian-chuang/Manipulator-Mujoco
 
-  - title: "LARA-Aubo-Robot"
-    description: ROS Environment for Aubo Robots in LARA
-    code: https://github.com/ian-chuang/LARA_AUBOi5_AG95
-    image: ./assets/img/lara-aubo.gif
+- title: HOMESTRI-UR
+  description: ROS workspace for UR5e robots in the HRVIP Lab and HOMESTRI.
+  video: p-homestri-ur
+  code: https://github.com/tammerb/HOMESTRI-UR5e-Robotiq2f85/tree/minimal
 
-  - title: "space_habitat_robotics_framework"
-    description: ROS environment for Viper X 300 arms
-    code: https://github.com/Drojas251/space_habitat_robotics_framework
-    image: ./assets/img/shr.gif
+- title: HOMESTRI-Explanation-BTs
+  description: Dockerized ROS workspace for explainable behavior trees on a UR5e.
+  image: xbt.png
+  code: https://github.com/ian-chuang/HOMESTRI-Explanation-BTs
 
-  - title: "Manipulator-Mujoco"
-    description: Template for controlling any robot arm in Mujoco with operational space control
-    code: https://github.com/ian-chuang/Manipulator-Mujoco
-    image: ./assets/img/manip-mujoco-aubo_i5.gif
+- title: OnRobot-RG2FT-ROS
+  description: ROS driver for the OnRobot RG2-FT gripper.
+  video: p-onrobot
+  code: https://github.com/ian-chuang/OnRobot-RG2FT-ROS
 
-  - title: "HOMESTRI-Explanation-BTs"
-    description: ROS Docker workspace for running explainable behavior trees for UR5e robot in HOMESTRI. 
-    code: https://github.com/ian-chuang/HOMESTRI-Explanation-BTs
-    image: ./assets/img/xbt.png
+- title: LARA-Aubo-Robot
+  description: ROS environment for Aubo robots in LARA.
+  video: p-lara-aubo
+  code: https://github.com/ian-chuang/LARA_AUBOi5_AG95
 
-  - title: "OnRobot-RG2FT-ROS"
-    description: ROS driver for OnRobot RG2-FT Gripper
-    code: https://github.com/ian-chuang/OnRobot-RG2FT-ROS
-    image: ./assets/img/onrobot.gif
+- title: space_habitat_robotics_framework
+  description: ROS environment for ViperX 300 arms.
+  video: p-space-habitat
+  code: https://github.com/Drojas251/space_habitat_robotics_framework
 
-  - title: "robotiq"
-    description: ROS driver for Robotiq 2F-85 Gripper
-    code: https://github.com/ian-chuang/robotiq
-    image: ./assets/img/robotiq.gif 
+- title: RoboFroggy
+  description: Unity 2D side-scrolling game (ECS 189L group project).
+  video: p-robofroggy
+  code: https://github.com/ian-chuang/RoboFroggy
 
-  - title: "dh_gripper_ros"
-    description: ROS driver for DH Robotics AG95 Gripper
-    code: https://github.com/ian-chuang/dh_gripper_ros
-    image: ./assets/img/ag95.png
+- title: AlgorithmVisualizer
+  description: React app that visualizes sorting, graph, and maze algorithms.
+  video: p-algorithm-visualizer
+  code: https://github.com/ian-chuang/AlgorithmVisualizer
 
-  - title: "KWR75-Force-Sensor-ROS"
-    description: ROS driver for KWR75 Force Torque Sensor
-    code: https://github.com/ian-chuang/KWR75-Force-Sensor-ROS
-    image: ./assets/img/kwr75.png
-
-  - title: "RoboFroggy"
-    description: ECS189L Group Project for a Unity 2D Side scrolling game
-    code: https://github.com/ian-chuang/RoboFroggy
-    image: ./assets/img/robofroggy.gif
-
-  - title: "Heart-Disease-Prediction"
-    description: ECS171 Machine Learning group project to predict likelihood of heart disease
-    code: https://github.com/ian-chuang/Heart-Disease-Prediction
-    image: ./assets/img/ecs171.png
-
-  - title: "AlgorithmVisualizer"
-    description: React app to visualize sorting, graph, and maze generation algorithms
-    code: https://github.com/ian-chuang/AlgorithmVisualizer
-    image: ./assets/img/algviz.gif
-
-  - title: "Twitter-From-Scratch"
-    description: Twitter-like app built from scratch with ReactJS, Redux, and Firebase
-    code: https://github.com/ian-chuang/Twitter-From-Scratch
-    image: ./assets/img/twitter.gif
+- title: Twitter-From-Scratch
+  description: Twitter-like app built with React, Redux, and Firebase.
+  video: p-twitter
+  code: https://github.com/ian-chuang/Twitter-From-Scratch

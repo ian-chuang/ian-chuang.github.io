@@ -1,0 +1,16 @@
+name: Ian Chuang
+photo: assets/media/profile.jpg
+
+# Shown under the name. Markdown links work.
+bio: >-
+  EECS PhD student at UC Berkeley, advised by
+  [Claire Tomlin](https://people.eecs.berkeley.edu/~tomlin/) and
+  [Iman Soltani](https://soltanilab.engineering.ucdavis.edu/people/iman-soltani).
+
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=9kffC78AAAAJ&hl=en
+  - label: GitHub
+    url: https://github.com/ian-chuang
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/iantc104/

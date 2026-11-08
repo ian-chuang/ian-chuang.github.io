@@ -1,62 +1,91 @@
-main:
+# One entry per paper, newest first. Every field except title/authors/venue is optional.
+#   video: base name of a clip in assets/media/ (NAME.mp4 + NAME.jpg poster)
+#   image: filename in assets/media/ (use instead of video for a still)
+#   links: arxiv / project / code / paper (publisher link, for papers not on arXiv)
+#   note:  small highlight shown under the venue, e.g. an award
+# "Ian Chuang" is bolded automatically in the author list.
 
-  - title: "Look, Focus, Act: Efficient and Robust Robot Learning via Human Gaze and Foveated Vision Transformers"
-    authors: <strong>Ian Chuang</strong>, Jinyu Zou, Andrew Lee, Dechen Gao, and Iman Soltani
-    conference: ICRA 2026
-    image: ./assets/img/look-focus-act.gif
-    pdf: https://arxiv.org/abs/2507.15833
-    page: https://soltanilara.github.io/giava/
+- title: "Dexterous In-Hand Object Pose Reaching with Learned Safety Filters"
+  authors: Ian Chuang, Hiya Shah, Vamsi Chilamkur, Iman Soltani, Claire Tomlin
+  venue: arXiv 2026
+  video: dexsafe
+  links:
+    arxiv: https://arxiv.org/abs/2610.37652
+    project: https://ian-chuang.github.io/dexsafe/
 
-  - title: "VITA: Vision-to-Action Flow Matching Policy"
-    authors: Dechen Gao, Boqi Zhao, Andrew Lee, <strong>Ian Chuang</strong>, Hanchu Zhou, Hang Wang, Zhe Zhao, Junshan Zhang, and Iman Soltani
-    conference: ICLR 2026
-    image: ./assets/img/vita.gif
-    pdf: https://arxiv.org/abs/2507.13231
+- title: "Look, Focus, Act: Efficient and Robust Robot Learning via Human Gaze and Foveated Vision Transformers"
+  authors: Ian Chuang, Jinyu Zou, Andrew Lee, Dechen Gao, Iman Soltani
+  venue: ICRA 2026
+  video: look-focus-act
+  links:
+    arxiv: https://arxiv.org/abs/2507.15833
+    project: https://soltanilara.github.io/giava/
+    code: https://github.com/Soltanilara/giava
+
+- title: "VITA: Vision-to-Action Flow Matching Policy"
+  authors: Dechen Gao, Boqi Zhao, Andrew Lee, Ian Chuang, Hanchu Zhou, Hang Wang, Zhe Zhao, Junshan Zhang, Iman Soltani
+  venue: ICLR 2026
+  video: vita
+  links:
+    arxiv: https://arxiv.org/abs/2507.13231
+    project: https://ucd-dare.github.io/VITA/
     code: https://github.com/ucd-dare/VITA
-    page: https://ucd-dare.github.io/VITA/
 
-  - title: "Gaze on the Prize: Shaping Visual Attention with Return-Guided Contrastive Learning"
-    authors: Andrew Lee, <strong>Ian Chuang</strong>, Dechen Gao, Kai Fukazawa, and Iman Soltani
-    conference: arXiv 2025
-    image: ./assets/img/gaze-on-the-prize.gif
-    pdf: https://arxiv.org/abs/2510.08442
+- title: "Gaze on the Prize: Shaping Visual Attention with Return-Guided Contrastive Learning"
+  authors: Andrew Lee, Ian Chuang, Dechen Gao, Kai Fukazawa, Iman Soltani
+  venue: arXiv 2025
+  video: gaze-on-the-prize
+  links:
+    arxiv: https://arxiv.org/abs/2510.08442
+    code: https://github.com/xndrewlee/gaze-on-the-prize
 
-  - title: "Mechanistic Interpretability for Steering Vision-Language-Action Models"
-    authors: Bear Häon, Kaylene Stocking, <strong>Ian Chuang</strong>, and Claire Tomlin
-    conference: CoRL 2025
-    image: ./assets/img/vla-mech-interp.gif
-    pdf: https://arxiv.org/abs/2509.00328
-    page: https://vla-mech-interp.github.io/
+- title: "Mechanistic Interpretability for Steering Vision-Language-Action Models"
+  authors: Bear Häon, Kaylene Stocking, Ian Chuang, Claire Tomlin
+  venue: CoRL 2025
+  video: vla-mech-interp
+  links:
+    arxiv: https://arxiv.org/abs/2509.00328
+    project: https://vla-mech-interp.github.io/
+    code: https://github.com/vla-mech-interp/mechanistic-steering-vlas
 
-  - title: "Active Vision Might Be All You Need: Exploring Active Vision in Bimanual Robotic Manipulation"
-    authors: <strong>Ian Chuang</strong>, Andrew Lee, Dechen Gao, Mahdi Naddaf, and Iman Soltani
-    conference: ICRA 2025
-    image: ./assets/img/av-aloha.gif
-    pdf: https://soltanilara.github.io/av-aloha/
+- title: "Active Vision Might Be All You Need: Exploring Active Vision in Bimanual Robotic Manipulation"
+  authors: Ian Chuang, Andrew Lee, Dechen Gao, Mahdi Naddaf, Iman Soltani
+  venue: ICRA 2025
+  video: av-aloha
+  links:
+    arxiv: https://arxiv.org/abs/2409.17435
+    project: https://soltanilara.github.io/av-aloha/
+    code: https://github.com/Soltanilara/av-aloha
 
-  - title: "InterACT: Inter-dependency Aware Action Chunking with Hierarchical Attention Transformers for Bimanual Manipulation"
-    authors: Andrew Lee, <strong>Ian Chuang</strong>, Ling-Yuan Chen, and Iman Soltani
-    conference: CoRL 2024
-    image: ./assets/img/interact.gif
-    pdf: https://www.arxiv.org/abs/2409.07914
-  
-  - title: "Hierarchical end-to-end autonomous navigation through few-shot waypoint detection"
-    authors: Amin Ghafourian, Zhongying CuiZhu, Debo Shi, <strong>Ian Chuang</strong>, Francois Charette, Rithik Sachdeva, and Iman Soltani
+- title: "InterACT: Inter-dependency Aware Action Chunking with Hierarchical Attention Transformers for Bimanual Manipulation"
+  authors: Andrew Lee, Ian Chuang, Ling-Yuan Chen, Iman Soltani
+  venue: CoRL 2024
+  video: interact
+  links:
+    arxiv: https://arxiv.org/abs/2409.07914
+    project: https://soltanilara.github.io/interact/
+    code: https://github.com/Soltanilara/interact
+
+- title: "Hierarchical end-to-end autonomous navigation through few-shot waypoint detection"
+  authors: Amin Ghafourian, Zhongying CuiZhu, Debo Shi, Ian Chuang, Francois Charette, Rithik Sachdeva, Iman Soltani
+  venue: IEEE RA-L 2024
+  image: miniav.png
+  links:
+    paper: https://ieeexplore.ieee.org/document/10433735
     code: https://github.com/Soltanilara/DNS
-    conference: IEEE RA-L
-    pdf: https://ieeexplore.ieee.org/document/10433735
-    image: ./assets/img/miniav.png
 
-  - title: '"What Will You Do Next?" Designing and Evaluating Explanation Generation Using Behavior Trees for Projection-Level XAI'
-    authors: Tammer Barkouki, <strong>Ian Chuang</strong>, and Stephen K. Robinson
-    conference: HRI 2024 LBR
-    pdf: https://dl.acm.org/doi/10.1145/3610978.3640547
+- title: '"What Will You Do Next?" Designing and Evaluating Explanation Generation Using Behavior Trees for Projection-Level XAI'
+  authors: Tammer Barkouki, Ian Chuang, Stephen K. Robinson
+  venue: HRI 2024 (Late-Breaking Report)
+  image: xbt.png
+  links:
+    paper: https://dl.acm.org/doi/10.1145/3610978.3640547
     code: https://github.com/ian-chuang/robot-explanation-BTs
-    image: ./assets/img/xbt.png
 
-  - title: "Mixed Reality Handheld Displays for Robot Control: A Comparative Study"
-    authors: Vera Memmesheimer, <strong>Ian Chuang</strong>, Bahram Ravani, and Achim Ebert
-    conference: AHFE 2024
-    pdf: https://openaccess.cms-conferences.org/publications/book/978-1-964867-30-4/article/978-1-964867-30-4_33
-    notes: Best Paper Student Award
-    image: ./assets/img/mixed_reality.png
+- title: "Mixed Reality Handheld Displays for Robot Control: A Comparative Study"
+  authors: Vera Memmesheimer, Ian Chuang, Bahram Ravani, Achim Ebert
+  venue: AHFE 2024
+  note: Best Paper Student Award
+  image: mixed_reality.png
+  links:
+    paper: https://openaccess.cms-conferences.org/publications/book/978-1-964867-30-4/article/978-1-964867-30-4_33
