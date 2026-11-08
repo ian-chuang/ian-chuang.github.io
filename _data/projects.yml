@@ -10,15 +10,15 @@
   video: p-homestri-ur
   code: https://github.com/tammerb/HOMESTRI-UR5e-Robotiq2f85/tree/minimal
 
-- title: dh_gripper_ros
-  description: ROS driver for the DH Robotics AG95 gripper.
-  image: ag95.png
-  code: https://github.com/ian-chuang/dh_gripper_ros
-
 - title: OnRobot-RG2FT-ROS
   description: ROS driver for the OnRobot RG2-FT gripper.
   video: p-onrobot
   code: https://github.com/ian-chuang/OnRobot-RG2FT-ROS
+
+- title: dh_gripper_ros
+  description: ROS driver for the DH Robotics AG95 gripper.
+  image: ag95.png
+  code: https://github.com/ian-chuang/dh_gripper_ros
 
 - title: LARA-Aubo-Robot
   description: ROS environment for Aubo robots in LARA.

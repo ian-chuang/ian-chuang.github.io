@@ -33,7 +33,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .intro { display: flex; gap: 24px; align-items: center; margin-bottom: 56px; }
 .photo { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; flex: none; }
 h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02em; }
-.bio { margin: 0 0 10px; color: var(--muted); max-width: 34em; }
+.bio { margin: 0 0 10px; color: var(--muted); text-wrap: pretty; }
 .social { display: flex; flex-wrap: wrap; gap: 4px 18px; }
 .social a { font-weight: 500; }
 
@@ -46,7 +46,7 @@ h3 { margin: 0; }
 
 /* media: always shown whole, never cropped */
 .frame {
-  aspect-ratio: 16 / 9; background: var(--frame); border-radius: 8px; overflow: hidden;
+  position: relative; aspect-ratio: 16 / 9; background: var(--frame); border-radius: 8px; overflow: hidden;
   display: flex; align-items: center; justify-content: center;
 }
 .frame video, .frame img { width: 100%; height: 100%; object-fit: contain; display: block; }
@@ -81,3 +81,11 @@ footer { color: var(--muted); font-size: 0.8rem; padding-top: 24px; border-top: 
 @media (max-width: 420px) {
   .projects { grid-template-columns: 1fr; }
 }
+
+/* scrub bar: click or drag along the bottom of a clip to seek */
+.scrub { position: absolute; left: 0; right: 0; bottom: 0; height: 22px; cursor: pointer; touch-action: none; opacity: 0; transition: opacity .15s; }
+.frame:hover .scrub, .frame.scrubbing .scrub { opacity: 1; }
+@media (hover: none) { .scrub { opacity: 1; } }
+.scrub .track { position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: rgba(255,255,255,.25); transition: height .12s; }
+.scrub:hover .track, .frame.scrubbing .track { height: 8px; }
+.scrub .bar { height: 100%; width: 0; background: #fff; }

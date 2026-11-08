@@ -1,7 +1,7 @@
 # One entry per paper, newest first. Every field except title/authors/venue is optional.
 #   video: base name of a clip in assets/media/ (NAME.mp4 + NAME.jpg poster)
 #   image: filename in assets/media/ (use instead of video for a still)
-#   links: arxiv / project / code / paper (publisher link, for papers not on arXiv)
+#   links: arxiv / project (shown as "Website") / code / paper (publisher link, for papers not on arXiv)
 #   note:  small highlight shown under the venue, e.g. an award
 # "Ian Chuang" is bolded automatically in the author list.
 
