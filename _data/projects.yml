@@ -10,10 +10,10 @@
   video: p-homestri-ur
   code: https://github.com/tammerb/HOMESTRI-UR5e-Robotiq2f85/tree/minimal
 
-- title: HOMESTRI-Explanation-BTs
-  description: Dockerized ROS workspace for explainable behavior trees on a UR5e.
-  image: xbt.png
-  code: https://github.com/ian-chuang/HOMESTRI-Explanation-BTs
+- title: dh_gripper_ros
+  description: ROS driver for the DH Robotics AG95 gripper.
+  image: ag95.png
+  code: https://github.com/ian-chuang/dh_gripper_ros
 
 - title: OnRobot-RG2FT-ROS
   description: ROS driver for the OnRobot RG2-FT gripper.
