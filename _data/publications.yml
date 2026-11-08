@@ -37,7 +37,6 @@
   video: gaze-on-the-prize
   links:
     arxiv: https://arxiv.org/abs/2510.08442
-    code: https://github.com/xndrewlee/gaze-on-the-prize
 
 - title: "Mechanistic Interpretability for Steering Vision-Language-Action Models"
   authors: Bear Häon, Kaylene Stocking, Ian Chuang, Claire Tomlin
@@ -64,7 +63,6 @@
   links:
     arxiv: https://arxiv.org/abs/2409.07914
     project: https://soltanilara.github.io/interact/
-    code: https://github.com/Soltanilara/interact
 
 - title: "Hierarchical end-to-end autonomous navigation through few-shot waypoint detection"
   authors: Amin Ghafourian, Zhongying CuiZhu, Debo Shi, Ian Chuang, Francois Charette, Rithik Sachdeva, Iman Soltani
