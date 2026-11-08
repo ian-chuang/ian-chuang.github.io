@@ -7,7 +7,7 @@
 
 - title: "Dexterous In-Hand Object Pose Reaching with Learned Safety Filters"
   authors: Ian Chuang, Hiya Shah, Vamsi Chilamkur, Iman Soltani, Claire Tomlin
-  venue: arXiv 2026
+  venue: arXiv
   video: dexsafe
   links:
     arxiv: https://arxiv.org/abs/2610.37652
@@ -33,7 +33,7 @@
 
 - title: "Gaze on the Prize: Shaping Visual Attention with Return-Guided Contrastive Learning"
   authors: Andrew Lee, Ian Chuang, Dechen Gao, Kai Fukazawa, Iman Soltani
-  venue: arXiv 2025
+  venue: arXiv
   video: gaze-on-the-prize
   links:
     arxiv: https://arxiv.org/abs/2510.08442
