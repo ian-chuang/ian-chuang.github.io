@@ -34,7 +34,7 @@ layout: null
       <article class="pub">
         <div class="frame">
           {% if p.video %}
-          <video src="{{ '/assets/media/' | append: p.video | append: '.mp4' | relative_url }}" poster="{{ '/assets/media/' | append: p.video | append: '.jpg' | relative_url }}" muted loop playsinline preload="none" aria-label="{{ p.title | escape }}"></video>
+          <video data-src="{{ '/assets/media/' | append: p.video | append: '.mp4' | relative_url }}" poster="{{ '/assets/media/' | append: p.video | append: '.jpg' | relative_url }}" muted loop playsinline preload="none" aria-label="{{ p.title | escape }}"></video>
           {% elsif p.image %}
           <img src="{{ '/assets/media/' | append: p.image | relative_url }}" alt="{{ p.title | escape }}">
           {% endif %}
@@ -60,7 +60,7 @@ layout: null
       <article class="project">
         <div class="frame">
           {% if p.video %}
-          <video src="{{ '/assets/media/' | append: p.video | append: '.mp4' | relative_url }}" poster="{{ '/assets/media/' | append: p.video | append: '.jpg' | relative_url }}" muted loop playsinline preload="none" aria-label="{{ p.title | escape }}"></video>
+          <video data-src="{{ '/assets/media/' | append: p.video | append: '.mp4' | relative_url }}" poster="{{ '/assets/media/' | append: p.video | append: '.jpg' | relative_url }}" muted loop playsinline preload="none" aria-label="{{ p.title | escape }}"></video>
           {% elsif p.image %}
           <img src="{{ '/assets/media/' | append: p.image | relative_url }}" alt="{{ p.title | escape }}">
           {% endif %}

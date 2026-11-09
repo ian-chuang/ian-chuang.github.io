@@ -49,6 +49,8 @@ h3 { margin: 0; }
   position: relative; aspect-ratio: 16 / 9; background: var(--frame); border-radius: 8px; overflow: hidden;
   display: flex; align-items: center; justify-content: center;
 }
+.frame { cursor: pointer; }
+.frame:not(:has(video)) { cursor: default; }
 .frame video, .frame img { width: 100%; height: 100%; object-fit: contain; display: block; }
 
 /* publications */
@@ -89,3 +91,10 @@ footer { color: var(--muted); font-size: 0.8rem; padding-top: 24px; border-top: 
 .scrub .track { position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: rgba(255,255,255,.25); transition: height .12s; }
 .scrub:hover .track, .frame.scrubbing .track { height: 8px; }
 .scrub .bar { height: 100%; width: 0; background: #fff; }
+
+/* play badge: shown until a clip is playing (and whenever it's paused), so tapping is obvious */
+.state { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: 52px; height: 52px; border-radius: 50%;
+  background: rgba(14,14,14,.6); color: #fff; display: flex; align-items: center; justify-content: center;
+  opacity: 0; pointer-events: none; transition: opacity .2s; }
+.state svg { width: 22px; height: 22px; fill: currentColor; }
+.frame.paused .state, .frame.idle .state { opacity: 1; }
