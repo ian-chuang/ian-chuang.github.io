@@ -23,6 +23,7 @@ layout: null
       <p class="bio">{{ site.data.site.bio | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       <nav class="social">
         {% for l in site.data.site.links %}<a href="{{ l.url }}" rel="me noopener">{{ l.label }}</a>{% endfor %}
+        <span class="email">{{ site.data.site.email }}</span>
       </nav>
     </div>
   </header>

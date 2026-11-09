@@ -9,6 +9,9 @@ bio: >-
   I work on robot learning, and I'm interested in dexterous manipulation,
   active perception, and learning safety for high-dimensional systems.
 
+# Plain text on purpose (light obfuscation, no mailto link).
+email: ianc [at] berkeley.edu
+
 links:
   - label: CV
     url: /assets/files/ian_chuang_cv.pdf

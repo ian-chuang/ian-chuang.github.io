@@ -36,6 +36,7 @@ h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02e
 .bio { margin: 0 0 10px; color: var(--muted); text-wrap: pretty; }
 .social { display: flex; flex-wrap: wrap; gap: 4px 18px; }
 .social a { font-weight: 500; }
+.email { color: var(--muted); }
 
 h2 {
   font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
