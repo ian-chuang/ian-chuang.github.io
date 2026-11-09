@@ -11,7 +11,7 @@ bio: >-
 
 links:
   - label: CV
-    url: assets/files/ian_chuang_cv.pdf
+    url: /assets/files/ian_chuang_cv.pdf
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=9kffC78AAAAJ&hl=en
   - label: GitHub

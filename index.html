@@ -22,7 +22,7 @@ layout: null
       <h1>{{ site.data.site.name }}</h1>
       <p class="bio">{{ site.data.site.bio | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       <nav class="social">
-        {% for l in site.data.site.links %}<a href="{{ l.url | relative_url }}" rel="me noopener">{{ l.label }}</a>{% endfor %}
+        {% for l in site.data.site.links %}<a href="{{ l.url }}" rel="me noopener">{{ l.label }}</a>{% endfor %}
       </nav>
     </div>
   </header>
