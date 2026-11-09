@@ -10,6 +10,8 @@ bio: >-
   active perception, and learning safety for high-dimensional systems.
 
 links:
+  - label: CV
+    url: assets/files/ian_chuang_cv.pdf
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=9kffC78AAAAJ&hl=en
   - label: GitHub
